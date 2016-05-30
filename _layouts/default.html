@@ -140,7 +140,7 @@ navigation:
                     <!-- Level 1 List -->
                     <ul class="level1" id="toggle-1">
 
-                        {% for level1 in page.navigation %}
+                        {% for level1 in layout.navigation %}
                         {% include navigation.html item=level1 %}
                         {% endfor %}
 
@@ -165,7 +165,7 @@ navigation:
                         <h1>{{ page.title }}</h1>
 
                         {% for yes in page.version %}
-                        <div class="version-flag">Current OMERO Version:&nbsp;&nbsp;&nbsp;5.2.3</div>
+                        <div class="version-flag">Current OMERO Version:&nbsp;&nbsp;&nbsp;5.2.4</div>
                         {% endfor %}
                         
 
