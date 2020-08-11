@@ -9,5 +9,5 @@ omero:
   insight:
     version: 5.5.2
 
-baseurl: /ome-help
-clsbaseurl: /ome-help/cls
+baseurl: ''
+clsbaseurl: /cls
